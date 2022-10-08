@@ -1,0 +1,169 @@
+
+    .mail-tab {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+        padding: 45px 25px 25px 30px;
+        background: #ffffff;
+        border-radius: 20px;
+        position: relative;
+        margin-top: 50px;
+        cursor: pointer;
+        border: 1px solid #3700ff;
+        box-shadow: 0px 0px 20px #06a4ff;
+        transition: all 0.5s ease 0s;
+    }
+
+    .mail-tab:hover,
+    .mail-tab.active {
+        background: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 0, 0);
+        box-shadow: 0px 0px 20px #F9EABD;
+    }
+
+    .mail-tab .check-icon {
+        position: absolute;
+        top: -40px;
+        margin: 0 auto 0 -20px;
+        left: 50%;
+        opacity: 0;
+        transition: all 0.5s ease 0s;
+    }
+
+    .mail-tab:hover .check-icon,
+    .mail-tab.active .check-icon {
+        opacity: 1;
+        top: -20px;
+    }
+
+    .mail-tab .check-icon img {
+        width: 40px;
+        height: 40px;
+        border-radius: 2px;
+        box-shadow: 0 2px 2px #168150;
+    }
+
+    .mail-tab .ctgy-icon {
+        height: 60px;
+        width: 80px;
+        margin-left: -30px;
+        position: absolute;
+        left: 50%;
+    }
+
+    .mail-tab .ctgy-icon img {
+        height: 60px;
+        width: 80px;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .mail-tab h3 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        padding: -5px 0;
+        margin-top: -34px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .mail-tab:hover h3,
+    .mail-tab.active h3 {
+        color: #000000;
+    }
+
+    .mail-tab h4 {
+        text-align: right;
+        color: rgb(0, 0, 0);
+        padding: 5px 0;
+        margin-top: -54px;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .mail-tab:hover h4,
+    .mail-tab.active h4 {
+        color: #000000;
+    }
+
+    .mail-tab:hover h4,
+    .mail-tab.active h4 {
+        color: #000000;
+    }
+
+    .mail-tab i {
+        text-align: center;
+        color: rgba(153, 153, 153, 1);
+        padding: 0;
+        font-size: 36px;
+        width: 100%;
+        margin-top: 20px;
+        visibility: hidden;
+    }
+
+    .mail-tab:hover i,
+    .mail-tab.active i {
+        color: #f2f2f2
+    }
+
+    .mail-tab .cta-btn {
+        position: absolute;
+        width: 100%;
+        bottom: -25px;
+        margin-left: -25px;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.5s ease 0s;
+    }
+
+    .mail-tab:hover .cta-btn,
+    .mail-tab.active .cta-btn {
+        opacity: 1;
+        bottom: -9px;
+    }
+
+    .mail-tab .cta-btn a {
+        background: #32BA7C;
+        text-align: center;
+        padding: 10px 35px;
+        font-size: 14px;
+        color: #fff;
+        border-radius: 20px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        box-shadow: 0 -1px 1px #168150
+    }
+
+    .cta-title {
+        text-align: center;
+        color: rgba(136, 136, 136, 1);
+        padding: 15px 0;
+        font-size: 26px;
+        letter-spacing: 1px;
+        margin-top: 40px;
+    }
+
+    .fuller {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .fuller .full-anchor {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
