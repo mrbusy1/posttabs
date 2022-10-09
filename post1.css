@@ -45,7 +45,7 @@ input {
 }
 
 .grid-template-columns-minmax {
-  grid-template-columns: minmax(20px, 150px) 1fr;
+  grid-template-columns: minmax(20px, 60px) 1fr;
 }
 .exemple-grid-item {
   border: 2px solid rgb(255, 255, 255);
